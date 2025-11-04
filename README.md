@@ -27,7 +27,6 @@ This repository provides a complete testing pipeline for evaluating DeepSeek OCR
 - ✅ **OCR Processing**: Converts 15-18 document images to markdown using DeepSeek API
 - ✅ **Evaluation**: Compares results against OmniDocBench ground truth
 - ✅ **Metrics**: Word overlap, structure detection, success rates
-- ✅ **Speed**: Completes in ~20-40 minutes (well under 1 hour)
 
 ## Files Overview
 
@@ -43,9 +42,6 @@ This repository provides a complete testing pipeline for evaluating DeepSeek OCR
 - **Text Edit Distance**: 0.089 (vs 0.073 full benchmark)
 - **Table TEDS**: 81.45 (vs 84.97 full benchmark)
 - **Formula CDM**: 79.12 (vs 83.37 full benchmark)
-- **OCR Success Rate**: 88.9% (16/18 images)
-- **Processing Time**: 32 minutes
-- **Total Cost**: $0.42 (24,567 tokens)
 
 ### Performance Analysis
 
@@ -87,7 +83,7 @@ Our evaluation subset includes diverse document types from OmniDocBench:
 ## API Cost Estimate
 
 - ~15-20 images × ~1000 tokens each = ~20K tokens
-- DeepSeek pricing: Very affordable (~$0.10-0.50 total)
+- DeepSeek pricing: Very affordable
 
 ## Troubleshooting
 
