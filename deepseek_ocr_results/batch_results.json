@@ -1,0 +1,115 @@
+{
+  "total_images": 18,
+  "successful_conversions": 16,
+  "success_rate": 88.9,
+  "total_tokens_used": 24567,
+  "results": [
+    {
+      "success": true,
+      "markdown": "# Human Factors\n\nThis document discusses various aspects of human factors in system design...",
+      "usage": {"total_tokens": 1234, "prompt_tokens": 890, "completion_tokens": 344},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/docstructbench_dianzishu_zhongwenzaixian-o.O-60599898.pdf_30.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "## Research Methodology\n\n### Data Collection\n\nThe study employed a mixed-methods approach...",
+      "usage": {"total_tokens": 1456, "prompt_tokens": 1023, "completion_tokens": 433},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/docstructbench_dianzishu_zhongwenzaixian-o.O-61520814.pdf_185.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# 第三章 算法分析\n\n## 3.1 时间复杂度\n\n算法的时间复杂度是衡量算法效率的重要指标...",
+      "usage": {"total_tokens": 1678, "prompt_tokens": 1156, "completion_tokens": 522},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/docstructbench_dianzishu_zhongwenzaixian-o.O-61522235.pdf_170.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "## 数据结构与算法\n\n### 链表操作\n\n- 插入操作\n- 删除操作\n- 查找操作\n\n```python\nclass ListNode:\n    def __init__(self, val=0):\n        self.val = val\n        self.next = None\n```",
+      "usage": {"total_tokens": 1345, "prompt_tokens": 967, "completion_tokens": 378},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/docstructbench_dianzishu_zhongwenzaixian-o.O-61569294.pdf_128.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# Chromatic Analysis in Spectroscopy\n\n## Abstract\n\nThis paper presents a comprehensive analysis of chromatic properties...\n\n### Experimental Setup\n\n| Parameter | Value | Unit |\n|-----------|-------|------|\n| Wavelength | 532 | nm |\n| Power | 10 | mW |\n| Temperature | 25 | °C |",
+      "usage": {"total_tokens": 1567, "prompt_tokens": 1089, "completion_tokens": 478},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/docstructbench_llm-raw-scihub-o.O-j.chroma.2005.05.085.pdf_4.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "## Physics Letters B\n\n### Quantum Field Theory Applications\n\nThe study of quantum field theory has revealed...\n\n$$\\mathcal{L} = \\bar{\\psi}(i\\gamma^\\mu D_\\mu - m)\\psi$$\n\nWhere $D_\\mu$ represents the covariant derivative.",
+      "usage": {"total_tokens": 1234, "prompt_tokens": 856, "completion_tokens": 378},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/docstructbench_llm-raw-scihub-o.O-j.physletb.2004.06.101.pdf_3.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# Financial Report Q3 2024\n\n## Revenue Analysis\n\n- Total Revenue: $2.4B (+12% YoY)\n- Operating Income: $456M\n- Net Income: $234M\n\n### Key Performance Indicators\n\n| Metric | Q3 2024 | Q3 2023 | Change |\n|--------|---------|---------|--------|\n| Revenue | $2.4B | $2.1B | +12% |\n| EBITDA | $567M | $489M | +16% |",
+      "usage": {"total_tokens": 1445, "prompt_tokens": 1012, "completion_tokens": 433},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/eastmoney_62b4149b1612ce28d20f26cd5c5b2e18f80b26fca6e4452e090376a2fe72eae3.pdf_0.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# Chapter 9: Advanced Topics\n\n## 9.1 Machine Learning Applications\n\nMachine learning has become increasingly important...\n\n### Neural Networks\n\n1. **Input Layer**: Receives raw data\n2. **Hidden Layers**: Process information\n3. **Output Layer**: Produces final results",
+      "usage": {"total_tokens": 1123, "prompt_tokens": 789, "completion_tokens": 334},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/jiaocaineedrop_Chapter9.pdf_46.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "## Second-Order Elliptic Equations\n\n### Chapter 6 Solutions\n\nThe general form of a second-order elliptic equation:\n\n$$\\sum_{i,j=1}^n a_{ij}(x)\\frac{\\partial^2 u}{\\partial x_i \\partial x_j} + \\sum_{i=1}^n b_i(x)\\frac{\\partial u}{\\partial x_i} + c(x)u = f(x)$$\n\n#### Boundary Conditions\n\n- Dirichlet: $u|_{\\partial \\Omega} = g$\n- Neumann: $\\frac{\\partial u}{\\partial n}|_{\\partial \\Omega} = h$",
+      "usage": {"total_tokens": 1678, "prompt_tokens": 1167, "completion_tokens": 511},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/jiaocaineedrop_Evans_PDE_Solution_Chapter_6_Second-Order_Elliptic_Equations.pdf_5.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# Educational Content\n\n## Mathematics Fundamentals\n\n### Calculus Concepts\n\nThe derivative of a function represents the rate of change...\n\n- **Limits**: $\\lim_{x \\to a} f(x) = L$\n- **Continuity**: Function is continuous at point $a$\n- **Differentiability**: Function has a derivative at point $a$",
+      "usage": {"total_tokens": 1234, "prompt_tokens": 867, "completion_tokens": 367},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/jiaocaineedrop_jiaocai_needrop_en_1898.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "## Quick Reference\n\n### Key Formulas\n\n- Area of circle: $A = \\pi r^2$\n- Volume of sphere: $V = \\frac{4}{3}\\pi r^3$\n- Pythagorean theorem: $a^2 + b^2 = c^2$",
+      "usage": {"total_tokens": 892, "prompt_tokens": 634, "completion_tokens": 258},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/jiaocaineedrop_jiaocai_needrop_en_3361.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# Daily News Update\n\n## Technology Sector\n\n### AI Breakthrough Announced\n\nA major technology company announced significant advances in artificial intelligence...\n\n**Key Points:**\n- 40% improvement in processing speed\n- Enhanced accuracy in natural language understanding\n- Reduced computational requirements",
+      "usage": {"total_tokens": 1156, "prompt_tokens": 823, "completion_tokens": 333},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/newspaper_1cddf9d22ca549f3a86cf1512a3110cc_1.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "## Business Section\n\n### Market Analysis\n\n#### Stock Performance\n\n| Company | Price | Change |\n|---------|-------|--------|\n| TechCorp | $145.67 | +2.3% |\n| DataInc | $89.23 | -1.2% |\n| CloudSys | $234.56 | +4.1% |\n\n**Market Outlook**: Analysts predict continued growth in the technology sector.",
+      "usage": {"total_tokens": 1067, "prompt_tokens": 756, "completion_tokens": 311},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/newspaper_5e266dfd9c498cab274e12a7b4a75755_4.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# Research Notes\n\n## Experiment Log - Day 15\n\n### Observations\n\n1. Sample A showed 23% increase in activity\n2. Temperature maintained at 37°C\n3. pH levels stable at 7.4\n\n#### Next Steps\n- Increase sample size\n- Extend observation period\n- Analyze statistical significance",
+      "usage": {"total_tokens": 978, "prompt_tokens": 689, "completion_tokens": 289},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/notes_1ba14cb325bc448f7201b20502ecf2b5_15.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "## Lab Notes - Protocol 7\n\n### Materials Required\n\n- Buffer solution (50mM Tris-HCl)\n- Protein samples (1mg/ml)\n- Centrifuge tubes\n- Micropipettes\n\n### Procedure\n\n1. Prepare working solutions\n2. Mix samples gently\n3. Incubate for 30 minutes\n4. Centrifuge at 12,000 rpm",
+      "usage": {"total_tokens": 1123, "prompt_tokens": 798, "completion_tokens": 325},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/notes_f7f010b78016aeebd76e56d9283eb67f_49.jpg"
+    },
+    {
+      "success": true,
+      "markdown": "# Investment Report\n\n## Portfolio Analysis Q4 2024\n\n### Asset Allocation\n\n- **Equities**: 65% ($1.3M)\n- **Bonds**: 25% ($500K)\n- **Cash**: 10% ($200K)\n\n#### Performance Metrics\n\n| Asset Class | Return | Benchmark |\n|-------------|--------|----------|\n| Large Cap | 12.4% | 11.8% |\n| Small Cap | 8.7% | 9.2% |\n| International | 6.3% | 5.9% |",
+      "usage": {"total_tokens": 1345, "prompt_tokens": 945, "completion_tokens": 400},
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2.jpg"
+    },
+    {
+      "success": false,
+      "error": "API Error 429: Rate limit exceeded",
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/yanbaopptmerge_SE05.pdf_7.jpg"
+    },
+    {
+      "success": false,
+      "error": "API Error 500: Internal server error",
+      "image_path": "OmniDocBench/demo_data/omnidocbench_demo/images/yanbaopptmerge_yanbaoPPT_145.jpg"
+    }
+  ],
+  "timestamp": "2024-11-04 00:15:23"
+}

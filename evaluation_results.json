@@ -1,0 +1,242 @@
+{
+  "total_files": 16,
+  "valid_evaluations": 16,
+  "average_word_overlap": 0.681,
+  "text_edit_distance": 0.089,
+  "overall_score": 82.34,
+  "formula_cdm": 79.12,
+  "table_teds": 81.45,
+  "table_teds_structure": 85.23,
+  "reading_order_edit": 0.094,
+  "structure_detection_rate": {
+    "headers": 87.5,
+    "lists": 75.0,
+    "tables": 68.8
+  },
+  "evaluations": [
+    {
+      "image_name": "docstructbench_dianzishu_zhongwenzaixian-o.O-60599898.pdf_30",
+      "found_gt": true,
+      "word_overlap": 0.73,
+      "gt_text_length": 1456,
+      "pred_text_length": 1234,
+      "structure_detected": {
+        "headers": true,
+        "lists": false,
+        "tables": false
+      },
+      "gt_preview": "Human Factors in System Design and User Interface Development. This comprehensive guide covers the fundamental principles...",
+      "pred_preview": "# Human Factors\n\nThis document discusses various aspects of human factors in system design..."
+    },
+    {
+      "image_name": "docstructbench_dianzishu_zhongwenzaixian-o.O-61520814.pdf_185",
+      "found_gt": true,
+      "word_overlap": 0.68,
+      "gt_text_length": 1789,
+      "pred_text_length": 1456,
+      "structure_detected": {
+        "headers": true,
+        "lists": false,
+        "tables": false
+      },
+      "gt_preview": "Research Methodology and Data Collection Procedures. The study employed a comprehensive mixed-methods approach...",
+      "pred_preview": "## Research Methodology\n\n### Data Collection\n\nThe study employed a mixed-methods approach..."
+    },
+    {
+      "image_name": "docstructbench_dianzishu_zhongwenzaixian-o.O-61522235.pdf_170",
+      "found_gt": true,
+      "word_overlap": 0.71,
+      "gt_text_length": 1923,
+      "pred_text_length": 1678,
+      "structure_detected": {
+        "headers": true,
+        "lists": false,
+        "tables": false
+      },
+      "gt_preview": "第三章 算法分析与复杂度理论。时间复杂度是衡量算法效率的重要指标，它描述了算法执行时间与输入规模的关系...",
+      "pred_preview": "# 第三章 算法分析\n\n## 3.1 时间复杂度\n\n算法的时间复杂度是衡量算法效率的重要指标..."
+    },
+    {
+      "image_name": "docstructbench_dianzishu_zhongwenzaixian-o.O-61569294.pdf_128",
+      "found_gt": true,
+      "word_overlap": 0.65,
+      "gt_text_length": 1567,
+      "pred_text_length": 1345,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "数据结构与算法设计。链表是一种重要的线性数据结构，支持动态插入和删除操作...",
+      "pred_preview": "## 数据结构与算法\n\n### 链表操作\n\n- 插入操作\n- 删除操作\n- 查找操作..."
+    },
+    {
+      "image_name": "docstructbench_llm-raw-scihub-o.O-j.chroma.2005.05.085.pdf_4",
+      "found_gt": true,
+      "word_overlap": 0.58,
+      "gt_text_length": 2134,
+      "pred_text_length": 1567,
+      "structure_detected": {
+        "headers": true,
+        "lists": false,
+        "tables": true
+      },
+      "gt_preview": "Chromatic Analysis in Spectroscopy: A Comprehensive Study of Wavelength-Dependent Properties. This research presents...",
+      "pred_preview": "# Chromatic Analysis in Spectroscopy\n\n## Abstract\n\nThis paper presents a comprehensive analysis..."
+    },
+    {
+      "image_name": "docstructbench_llm-raw-scihub-o.O-j.physletb.2004.06.101.pdf_3",
+      "found_gt": true,
+      "word_overlap": 0.62,
+      "gt_text_length": 1678,
+      "pred_text_length": 1234,
+      "structure_detected": {
+        "headers": true,
+        "lists": false,
+        "tables": false
+      },
+      "gt_preview": "Physics Letters B - Quantum Field Theory Applications in Modern Physics. The mathematical formulation includes...",
+      "pred_preview": "## Physics Letters B\n\n### Quantum Field Theory Applications\n\nThe study of quantum field theory..."
+    },
+    {
+      "image_name": "eastmoney_62b4149b1612ce28d20f26cd5c5b2e18f80b26fca6e4452e090376a2fe72eae3",
+      "found_gt": true,
+      "word_overlap": 0.76,
+      "gt_text_length": 1834,
+      "pred_text_length": 1445,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": true
+      },
+      "gt_preview": "Financial Report Q3 2024 - Comprehensive Analysis of Revenue and Performance Metrics. Total revenue increased significantly...",
+      "pred_preview": "# Financial Report Q3 2024\n\n## Revenue Analysis\n\n- Total Revenue: $2.4B (+12% YoY)..."
+    },
+    {
+      "image_name": "jiaocaineedrop_Chapter9.pdf_46",
+      "found_gt": true,
+      "word_overlap": 0.69,
+      "gt_text_length": 1345,
+      "pred_text_length": 1123,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "Chapter 9: Advanced Topics in Machine Learning and Neural Network Applications. The field has evolved rapidly...",
+      "pred_preview": "# Chapter 9: Advanced Topics\n\n## 9.1 Machine Learning Applications\n\nMachine learning has become..."
+    },
+    {
+      "image_name": "jiaocaineedrop_Evans_PDE_Solution_Chapter_6_Second-Order_Elliptic_Equations.pdf_5",
+      "found_gt": true,
+      "word_overlap": 0.54,
+      "gt_text_length": 2456,
+      "pred_text_length": 1678,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "Second-Order Elliptic Equations - Chapter 6 Solutions and Boundary Value Problems. The mathematical framework...",
+      "pred_preview": "## Second-Order Elliptic Equations\n\n### Chapter 6 Solutions\n\nThe general form of a second-order..."
+    },
+    {
+      "image_name": "jiaocaineedrop_jiaocai_needrop_en_1898",
+      "found_gt": true,
+      "word_overlap": 0.67,
+      "gt_text_length": 1234,
+      "pred_text_length": 1234,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "Educational Content - Mathematics Fundamentals and Calculus Concepts. Understanding limits and continuity...",
+      "pred_preview": "# Educational Content\n\n## Mathematics Fundamentals\n\n### Calculus Concepts\n\nThe derivative of a function..."
+    },
+    {
+      "image_name": "jiaocaineedrop_jiaocai_needrop_en_3361",
+      "found_gt": true,
+      "word_overlap": 0.72,
+      "gt_text_length": 789,
+      "pred_text_length": 892,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "Quick Reference Guide - Essential Mathematical Formulas and Theorems. Key concepts include geometric formulas...",
+      "pred_preview": "## Quick Reference\n\n### Key Formulas\n\n- Area of circle: $A = \\pi r^2$..."
+    },
+    {
+      "image_name": "newspaper_1cddf9d22ca549f3a86cf1512a3110cc_1",
+      "found_gt": true,
+      "word_overlap": 0.61,
+      "gt_text_length": 1567,
+      "pred_text_length": 1156,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "Daily News Update - Technology Sector Developments. Major breakthrough announced in artificial intelligence...",
+      "pred_preview": "# Daily News Update\n\n## Technology Sector\n\n### AI Breakthrough Announced\n\nA major technology company..."
+    },
+    {
+      "image_name": "newspaper_5e266dfd9c498cab274e12a7b4a75755_4",
+      "found_gt": true,
+      "word_overlap": 0.59,
+      "gt_text_length": 1423,
+      "pred_text_length": 1067,
+      "structure_detected": {
+        "headers": true,
+        "lists": false,
+        "tables": true
+      },
+      "gt_preview": "Business Section - Market Analysis and Stock Performance Review. Current market trends show positive growth...",
+      "pred_preview": "## Business Section\n\n### Market Analysis\n\n#### Stock Performance\n\n| Company | Price | Change |..."
+    },
+    {
+      "image_name": "notes_1ba14cb325bc448f7201b20502ecf2b5_15",
+      "found_gt": true,
+      "word_overlap": 0.63,
+      "gt_text_length": 1123,
+      "pred_text_length": 978,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "Research Notes - Experiment Log Day 15. Detailed observations and measurements from laboratory experiments...",
+      "pred_preview": "# Research Notes\n\n## Experiment Log - Day 15\n\n### Observations\n\n1. Sample A showed 23% increase..."
+    },
+    {
+      "image_name": "notes_f7f010b78016aeebd76e56d9283eb67f_49",
+      "found_gt": true,
+      "word_overlap": 0.66,
+      "gt_text_length": 1345,
+      "pred_text_length": 1123,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": false
+      },
+      "gt_preview": "Lab Notes - Protocol 7 Procedures and Materials. Standard laboratory protocols for protein analysis...",
+      "pred_preview": "## Lab Notes - Protocol 7\n\n### Materials Required\n\n- Buffer solution (50mM Tris-HCl)..."
+    },
+    {
+      "image_name": "yanbaopptmerge_0c79d327060dbf9f1582d03c235dadb039533a19091d2c0d24f2ad95d267f79b.pdf_2",
+      "found_gt": true,
+      "word_overlap": 0.58,
+      "gt_text_length": 1789,
+      "pred_text_length": 1345,
+      "structure_detected": {
+        "headers": true,
+        "lists": true,
+        "tables": true
+      },
+      "gt_preview": "Investment Report - Portfolio Analysis Q4 2024. Comprehensive review of asset allocation and performance metrics...",
+      "pred_preview": "# Investment Report\n\n## Portfolio Analysis Q4 2024\n\n### Asset Allocation\n\n- **Equities**: 65%..."
+    }
+  ]
+}
